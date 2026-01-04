@@ -8,7 +8,6 @@ yarn-error.log*
 pnpm-debug.log*
 
 # Environment variables
-.env*
 
 # Build output
 dist/
@@ -17,9 +16,10 @@ dist/
 *.tsbuildinfo
 
 # IDE / Editor files
-.vscode/
 .idea/
 .DS_Store
 
 # Optional: OS files
 Thumbs.db
+.vercel
+config.bat
